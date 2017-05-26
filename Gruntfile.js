@@ -42,7 +42,6 @@ module.exports = function (grunt) {
                 changelogFromGithub: true, //NOT CHANGE
                 githubReleaseBody: 'See [CHANGELOG.md](./CHANGELOG.md) for details.', //NOT CHANGE
                 npm: false, //CHANGE TO TRUE IF YOUR PROJECT IS A NPM MODULE 
-                additionalFiles: ['README.md'],
                 //npmtag: true, //default: no tag
                 beforeBumpTasks: [], // IS NOT READY YET
                 afterBumpTasks: ['buildOn', 'usebanner'], // IS NOT READY YET
