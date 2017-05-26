@@ -1,0 +1,8 @@
+[![Build Status](https://travis-ci.org/<%= pkg.repository.github.replace(/http:\/\/github.com\//,"") %>.svg?branch=master)](https://travis-ci.org/<%= pkg.repository.github %>)
+
+The version <%= pkg.version %> is the latest stable version of <%= pkg.name %> images.
+see [release note](<%= pkg.repository.github %>/releases/tag/<%= pkg.version %>) for details.
+
+- Follow [documentation](./docs) to deploy the Kubernetes cluster with `darteaga/hyperkube`.
+
+- See [Docker Hub](<%= pkg.docker.url %>) also.

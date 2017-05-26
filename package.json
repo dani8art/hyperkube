@@ -1,0 +1,40 @@
+{
+  "name": "darteaga-hyperkube",
+  "version": "1.6.4",
+  "buildOn": "2017-05-26",
+  "description": "Hyperkube images ready to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dani8art/hyperkube.git",
+    "github": "http://github.com/dani8art/hyperkube"
+  },
+  "keywords": [
+    "kubernetes",
+    "local",
+    "docker",
+    "deployment",
+    "hyperkube"
+  ],
+  "author": {
+    "name": "Daniel Arteaga",
+    "web": "https://darteaga.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dani8art/hyperkube/issues"
+  },
+  "homepage": "https://github.com/dani8art/hyperkube",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-dockerize": "0.0.2",
+    "grunt-release-github": "^1.0.4"
+  },
+  "docker": {
+    "url": "https://hub.docker.com/r/darteaga/hyperkube/"
+  }
+}
