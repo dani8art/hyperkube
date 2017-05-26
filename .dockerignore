@@ -1,0 +1,6 @@
+node_modules/
+README.md
+package.json
+Gruntfile.js
+extra/
+.travis.yml
